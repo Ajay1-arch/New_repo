@@ -1,0 +1,28 @@
+2025-02-21 20:35:51,359    : -----Naukri.py Script Run Begin-----
+2025-02-21 20:35:51,365    : ====== WebDriver manager ======
+2025-02-21 20:35:53,534    : Get LATEST chromedriver version for google-chrome
+2025-02-21 20:35:53,688    : Get LATEST chromedriver version for google-chrome
+2025-02-21 20:35:53,789    : There is no [win64] chromedriver "133.0.6943.126" for browser google-chrome "133.0.6943" in cache
+2025-02-21 20:35:53,789    : Get LATEST chromedriver version for google-chrome
+2025-02-21 20:35:53,987    : WebDriver version 133.0.6943.126 selected
+2025-02-21 20:35:53,992    : Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-21 20:35:53,992    : About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.126/win32/chromedriver-win32.zip
+2025-02-21 20:35:54,213    : Driver downloading response is 200
+2025-02-21 20:35:55,017    : Get LATEST chromedriver version for google-chrome
+2025-02-21 20:35:55,229    : Driver has been saved in cache [C:\Users\AJAY\anaconda3\python39.zip\.wdm\drivers\chromedriver\win64\133.0.6943.126]
+2025-02-21 20:35:57,199    : Google Chrome Launched!
+2025-02-21 20:35:58,783    : Website Loaded Successfully.
+2025-02-21 20:36:14,367    : Element not found with XPATH : //*[text() = 'SKIP AND CONTINUE']
+2025-02-21 20:36:15,396    : Naukri Login Successful
+2025-02-21 20:36:41,333    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-02-21 20:36:44,377    : Element not found with XPATH : //*[@name='mobile'] | //*[@id='mob_number']
+2025-02-21 20:36:44,377    : Mobile number element not found in UI
+2025-02-21 20:36:45,399    : Profile Update Successful
+2025-02-21 20:36:50,469    : <class 'AttributeError'> : 'PdfWriter' object has no attribute 'addPage' at Line 330.
+2025-02-21 20:37:02,886    : Element not found with XPATH : //*[contains(@class, 'crossIcon')]
+2025-02-21 20:37:09,019    : Element not found with ID : //button[@type='button']
+2025-02-21 20:37:10,066    : Resume Document Upload Successful. Last Updated date = Uploaded on Feb 21, 2025
+2025-02-21 20:37:12,266    : Driver Closed Successfully
+2025-02-21 20:37:14,531    : Driver Quit Successfully
+2025-02-21 20:37:14,532    : -----Naukri.py Script Run Ended-----
+
