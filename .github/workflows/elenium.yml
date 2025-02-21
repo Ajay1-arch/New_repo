@@ -1,0 +1,26 @@
+name: Run Selenium Script
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # Runs daily at 6:00 AM (UTC)
+  workflow_dispatch:    # Manually trigger if needed
+
+jobs:
+  run-selenium:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install selenium webdriver-manager
+        
+    - name: Run Selenium Script
+      run: python C:\Users\AJAY\Documents\naukri.py
